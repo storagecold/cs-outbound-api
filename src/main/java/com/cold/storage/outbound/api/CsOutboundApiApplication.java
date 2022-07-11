@@ -1,4 +1,4 @@
-package com.cold.storage.outbound.api.csoutboundapi;
+package com.cold.storage.outbound.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
