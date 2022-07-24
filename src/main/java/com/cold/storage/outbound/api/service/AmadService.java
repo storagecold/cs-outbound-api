@@ -3,7 +3,6 @@ package com.cold.storage.outbound.api.service;
 import com.cold.storage.outbound.api.model.Amad;
 import com.cold.storage.outbound.api.repository.AmadRepoImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

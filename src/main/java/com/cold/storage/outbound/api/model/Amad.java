@@ -1,9 +1,11 @@
 package com.cold.storage.outbound.api.model;
 
 import lombok.Data;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 @Data
+@Document(collection = "amad")
 public class Amad {
     private String coldId;
     private int amadNo;
@@ -20,5 +22,4 @@ public class Amad {
     private int gulla;
     private Date createdAt;
     private Date updatedAt;
-
 }
